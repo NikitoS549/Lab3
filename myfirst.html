@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1 align="center">Hello HTML | Lab 3!</h1>
-        <p>Это мой первый CSS-пример</p>
+        <p align="center">Это мой первый CSS-пример</p>
     </body>
     </html>
 
@@ -31,15 +31,33 @@
 
 <h2 align="center"> Выбор максимального значения | 1 Индивидуальное </h2>
 
-<form name1="form2">
+<form name="form2">
     Введите коэфициенты:
     <br> <br>
-    A = <input type="text" name1="x1" size="4" placeholder="Input a">
-    B = <input type="text" name1="x2" size="4" placeholder="Input b">
+    A = <input type="text" name="x1" size="4" placeholder="Input a">
+    B = <input type="text" name="x2" size="4" placeholder="Input b">
     <br> <br>
     <input type="button" value="Cравнить!" onClick="Srav()" />
     <br> <br>
-    Результат = <input type="text" name1="y2" size="20" placeholder="Result">
+    Результат = <input type="text" name="y2" size="20" placeholder="Result">
     <br> <br>
     <input type="reset">
+</form>
+
+<h2 align="center"> Вывод имени админа | 2 Индивидуальное </h2>
+
+<form name="form3">
+    Имя администратора:
+    <br> <br>
+    <input type="button" value="Узнать имя Админа" onClick="Imya()" /> 
+</form>
+
+<h2 align="center"> Ввод возраста | 3 Индивидуальное </h2>
+
+<form name="form4">
+    Введите ваш возраст:
+    <br> <br>
+    <input type="text" name="x1" size="4" placeholder="Input age">
+    <br> <br>
+    <input type="button" value="Проверить" onClick="Old()" />
 </form>
